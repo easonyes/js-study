@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    #time {
+      font-size: 50px;
+      margin: 100px;
+      text-align: center;
+      color: red;
+    }
+  </style>
+</head>
+<body> 
+  <div id="time"></div>
+
+<script>
+  window.onload = function() {
+    // 1. 获取需要的标签
+    let time = document.getElementById('time');
+
+    //2. 自定义时间
+    let nextDate = new Date('2019/3/18 0:0:0');
+
+    // 3. 开启定时器
+    setInterval(function() {
+      //3.1 获取现在的时间
+      let currentDate = new Date();
+
+      // 3.2 获取时间戳
+      let currentTme = currentDate.getTime();
+      let nextTime = nextDate.getTime();
+      let my_time = nextTime - currentTme;
+
+      // 3.3 计算时间
+      let d = parseInt(my_time / 3600 / 24 / 1000);
+      let h = parseInt(my_time / 3600 / 1000 % 24);
+      let m = parseInt(my_time / 60 / 1000 % 60);
+      let s = parseInt(my_time / 1000 % 60);
+      time.innerText = '距离下个周一还有' + size(d) + '天' + 
+      size(h) + '小时' + 
+      size(m) + '分钟' + 
+      size(s) + '秒';
+
+    }, 1000);
+
+      function size(num) {
+        return num >= 10 ? num : '0' + num;
+      }
+  }
+</script>
+</body>
+</html>

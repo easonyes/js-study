@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title></title>
+      <style>
+        
+      </style>
+  </head>
+  <body> 
+    
+
+    <script>
+      var str = "http://www.baidu.com";
+      var str1 = "http%3A%2F%2Fwww.baidu.com%3Fname%3Dbaidu";
+      var str2 = "https://www.baidu.com/s?wd=%E8%B5%96%E7%BE%8E%E4%BA%91&rsv_spt=1&rsv_iqid=0xe134f89d0004d4be&issp=1&f=8&rsv_bp=0&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_enter=1&rsv_sug3=15&rsv_sug1=19&rsv_sug7=101&rsv_t=3dc8QHk4vA4DKoVuq%2B%2BZgyYnBP0Q33aZZACUCmUwt3qURhFw7cB%2BZIFBCRHbA7vwRmkU"
+      
+      //1. 编码
+      var encodestr = encodeURIComponent(str);
+      console.log(encodestr);
+
+      //2. 解码
+      var decodeStr = decodeURIComponent(str1);
+      console.log(decodeStr);
+
+      var decodeStr1 = decodeURIComponent(str2);
+      console.log(decodeStr1);
+    </script>
+  </body>
+</html>

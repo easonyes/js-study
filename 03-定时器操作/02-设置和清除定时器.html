@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body> 
+  <button id="btn1">开启定时器</button>
+  <button id="btn2">结束定时器</button>
+<script>
+  window.onload = function() {
+    // 1. 获取需要的标签
+    let btn1 = document.getElementById('btn1');
+    let btn2 = document.getElementById('btn2');
+
+    var height = 150, timer = null;
+
+    // 2. 开启定时器
+    btn1.onclick = function() {
+      timer = setInterval(function() {
+        height++;
+        console.log(height);
+      }, 1000);
+    }
+
+    // 3. 结束计时器
+    btn2.onclick = function() {
+      clearInterval(timer);
+    }
+  }  
+</script>
+</body>
+</html>

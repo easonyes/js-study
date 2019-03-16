@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    #box {
+      width: 474px;
+      height: 450px;
+      background: url('../images/clock.jpg') no-repeat;
+      margin: 20px auto;
+      position: relative;
+    }
+
+    #hour {
+      background: url('../images/hour.jpg') no-repeat;
+      position: absolute;
+      width: 15px;
+      height: 96px;
+      margin-left: -7.5px;
+      margin-top: -48px;
+      left: 50%;
+      top: 50%;
+    }
+
+    #minute {
+      background: url('../images/minute.jpg') no-repeat;
+      position: absolute;
+      width: 11px;
+      height: 137px;
+      margin-left: -5.5px;
+      margin-top: -68.5px;
+      left: 50%;
+      top: 50%;
+    }
+
+    #second {
+      background: url('../images/second.jpg') no-repeat;
+      position: absolute;
+      width: 5px;
+      height: 156px;
+      margin-left: -2.5px;
+      margin-top: -78px;
+      left: 50%;
+      top: 50%;
+    }
+  </style>
+</head>
+<body> 
+  <div id="box">
+    <div id="hour"></div>
+    <div id="minute"></div>
+    <div id="second"></div>
+  </div>
+<script>
+  window.onload = function() {
+    // 1. 获取需要的标签
+    let hour = document.getElementById('hour');
+    let minute = document.getElementById('minute');
+    let second = document.getElementById('second');
+
+    // 2.开启定时器
+    setInterval(function() {
+      // 2.1 获取当前的时间戳
+      let date = new Date();
+      let mills = date.getMilliseconds();
+      let s = date.getSeconds() + mills / 1000;
+      let m = date.getMinutes() + s / 60;
+      let h = date.getHours() % 12 + m / 60;
+      //console.log(h);
+
+      // 2.2 旋转
+      hour.style.transform = 'rotate(' + h * 30 + 'deg)';
+      minute.style.transform = 'rotate(' + m * 6 + 'deg)';
+      second.style.transform = 'rotate(' + s * 6 + 'deg)';
+
+      //console.log(date);
+    }, 1000);
+  }
+</script>
+</body>
+</html>

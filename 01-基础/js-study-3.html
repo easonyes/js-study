@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+<style>
+.div {
+  color:red;
+}
+
+[title] {
+  color: blue;
+}
+
+#p1 span {
+  color:pink;
+}
+</style>
+    <body>
+<div id="div1" class="div">
+  我是div1
+  <p id="p1">我是<span id="span1">行内元素</span></p>
+</div>
+
+<div class="div" title="">
+  我是div2,我不想要div1的样式
+</div>
+
+<div class="div">
+  我是div3,我想要div1的样式
+</div>
+
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    body {
+      background-color: #000;
+      text-align: center;
+      padding: 100px;
+    }
+
+    #picture {
+      display: none;
+    }
+
+    #time {
+      font-size: 100px;
+      color:orangered;
+    }
+  </style>
+</head>
+<body> 
+  <div id="time"></div>
+  <img id="picture" src="../img/7.jpg">
+
+<script>
+  window.onload = function() {
+    let num = 5, timer = null;
+
+    timer = setInterval(function() {
+      document.getElementById('time').innerText = num;
+      num--;
+      if(num < 0) {
+        document.getElementById('time').style.display = 'none';
+        clearInterval(timer);
+        document.getElementById('picture').style.display = 'block';
+      }
+    }, 1000);
+    
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  img {
+    width: 200px;
+    height: 250px;
+  }
+
+  #top {
+    padding: 20px;
+  }
+
+  #bottom {
+    position: relative;
+  }
+
+  .box {
+    width: 200px;
+    height: 300px;
+    margin: 0 15px 15px 0;
+    background-color: gray;
+  }
+
+  .box p:last-child {
+    font-size: 13px;
+    color: orange;
+  }
+
+</style>
+</head>
+<body> 
+  <div id="top">
+    <button>3列</button>
+    <button>4列</button>
+    <button>5列</button>
+  </div>
+  
+  <div id="bottom">
+    <div class="box">
+      <img src="img/1.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/2.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+     <div class="box">
+      <img src="img/3.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/4.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/5.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/6.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/7.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/8.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/9.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/10.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/11.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/12.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/13.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/14.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/15.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/16.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/17.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/18.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/19.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/20.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/21.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/22.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/23.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/11.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/12.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/13.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+    <div class="box">
+      <img src="img/14.jpg" alt="">
+      <p>小七</p>
+      <p>超绝可爱赖小七</p>
+    </div>
+  </div>
+<script>
+  window.onload = function() {
+    // 1. 获取需要的标签
+    var btns = document.getElementById("top").children;
+    var bottom = document.getElementById("bottom");
+    //console.log(btns);
+    //console.log(bottom);
+
+    // 2.监听按钮的点击
+    function btnClick(allCols, parentNode) {
+      // 2.1 定义变量
+      let boxW = 200, boxH = 320, marginXY = 15;
+
+      // 2.2 遍历
+      for(let i = 0; i<parentNode.children.length; i++) {
+        // 2.2.1 求出当前盒子所在的行和列
+        let row = parseInt(i / allCols);
+        let col = parseInt(i % allCols);
+
+        // console.log(row);
+        // console.log(col);
+
+        // 2.2.2 盒子的定位
+        let currentBox = parentNode.children[i];
+        currentBox.style.position = 'absolute';
+        currentBox.style.left = col * (boxW + marginXY) + 'px';
+        currentBox.style.top = row * (boxH + marginXY) + 'px';
+      }
+    }
+    btns[0].onclick = function() {
+      btnClick(3, bottom);
+    };
+    btns[1].onclick = function() {
+      btnClick(4, bottom);
+    }
+    btns[2].onclick = function() {
+      btnClick(5, bottom);
+    }  
+  }
+</script>
+</body>
+</html>
