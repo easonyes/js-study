@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    #top {
+      text-align: center;
+    }
+
+    button {
+      font-size: 30px;
+      padding: 20px;
+      margin: 10px;
+    }
+
+    #bottom {
+      width: 300px;
+      height: 200px;
+      font-size: 80px;
+      color: red;
+      margin: 20px auto;
+      text-align: center;
+    }
+  </style>
+</head>
+<body> 
+  <div id="top">
+    <button id="start">开始点名</button>
+    <button id="end">结束点名</button>
+  </div>
+  <div id="bottom"></div>
+<script>
+  window.onload = function() {
+    // 1. 获取需要的标签
+    let top = $('top');
+    let start = $('start');
+    let end = $('end');
+    let bottom = $('bottom');
+    let timer = null;
+    let arr = ['王1', '王2', '王3', '王4', '王5', 
+    '王6', '王7', '王8', '王11', '王12', '王13', '王14', '王15', 
+    '王16', '王17', '王18', '王19', '王20', '王21', '王22', '王23'];
+
+    // 2. 开启定时器
+    start.onclick = function() {
+      clearInterval(timer);
+
+      timer = setInterval(function() {
+        let i = parseInt(Math.random() * arr.length);
+
+        bottom.innerText = arr[i];
+      }, 20);
+    }
+
+    // 3. 关闭定时器
+    end.onclick = function() {
+      bottom.innerText = '小七是我老婆';
+      clearInterval(timer);
+    }
+
+
+  }
+
+  function $(id) {
+    return typeof id === "string" ? document.getElementById(id) : null;
+  }
+</script>
+</body>
+</html>

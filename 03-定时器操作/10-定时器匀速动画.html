@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    /* #box {
+      width: 1000px;
+      background-color: blue;
+    } */
+
+    #pic {
+      width: 478px;
+    }
+  </style>
+</head>
+<body> 
+  <button id="btn">播放/暂停动画</button>
+  <div id="box">
+      <img id="pic" src="../img/7.jpg">
+  </div>
+<script>
+  window.onload = function() {
+    // 1. 获取标签
+    let btn = document.getElementById('btn');
+    let pic = document.getElementById('pic');
+    //let box = document.getElementById('box');
+    let timer = null, num = 0, begin = 0, step = 10, target = 600;
+
+    // 2.监听按钮的点击
+    btn.onclick = function() {
+      // 2.1 清除定时器
+      clearInterval(timer);
+
+      //2.2 设置定时器
+      timer = setInterval(function() {
+        begin += 10;
+        // 2.2.1 判断
+        if(begin >= target) {
+          begin = target;
+          clearInterval(timer);
+        }
+        // 2.2.2 动起来 
+        pic.style.marginLeft = begin + 'px';
+      }, 50);
+    }
+
+    /* // 2. 监听按钮的点击
+    btn.onclick = function() {
+      // 2.1 清除定时器
+      if(timer) {
+        clearInterval(timer);
+        console.log(3);
+        timer = null;
+      }else {
+        // 2.2 开启定时器
+        timer = setInterval(function() {
+          if(num + 478 < 1000 - 10) {
+            num += 10;
+            console.log(1);
+          }else {
+            clearInterval(timer);
+            console.log(2);
+          }
+          pic.style.marginLeft = num + 'px';
+        }, 50);
+      } 
+    } */
+  }
+</script>
+</body>
+</html>

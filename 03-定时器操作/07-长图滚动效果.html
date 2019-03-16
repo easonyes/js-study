@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    #box {
+      width: 690px;
+      height: 300px;
+      border: 1px solid red;
+      margin: 10px auto;
+      overflow: hidden;
+      position: relative;
+    }
+
+    #pic {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    #top, #bottom {
+      width: 100%;
+      height: 50%;
+      position: absolute;
+      left: 0;
+      cursor: pointer;
+    }
+
+    /* #bottom {
+      width: 100%;
+      height: 50%;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      cursor: pointer;
+    } */
+    #top {
+      top: 0;
+    }
+
+    #bottom {
+      bottom: 0;
+    }
+  </style>
+</head>
+<body> 
+  <div id="box">
+    <img id="pic" src="../img/17.jpg">
+    <span id="top"></span>
+    <div id="bottom"></div>
+  </div>
+<script>
+  window.onload = function() {
+    let box = $('box');
+    let pic = $('pic');
+    let top = $('top');
+    let bottom = $('bottom');
+    let height = 0, timer = null;
+
+    // 1. 监听鼠标事件
+    top.onmouseover = function() {
+      clearInterval(timer);
+      timer = setInterval(function() {
+        if(height < 0) {
+          height++;
+        }else {
+          clearInterval(timer);
+        }
+        pic.style.top = height + 'px';
+      }, 10);
+    };
+
+    bottom.onmouseover = function() {
+      clearInterval(timer);
+
+      timer = setInterval(function() {
+        if(height > -620) {
+          height--;
+        }else {
+          clearInterval(timer);
+        }
+        pic.style.top = height + 'px';
+      }, 10);
+    };
+
+    box.onmouseout = function() {
+      clearInterval(timer);
+    }
+  }
+
+  function $(id) {
+    return typeof id === "string" ? document.getElementById(id) : null;
+  }
+</script>
+</body>
+</html>

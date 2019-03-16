@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  </style>
+</head>
+<body> 
+  <button id="eat">3秒后吃饭</button>
+<script>
+  window.onload = function() {
+    // 1. 获取标签
+    let eat = document.getElementById('eat');
+    let timer = null;
+
+    // 2. 监听按钮的点击
+    eat.onclick = function() {
+      clearTimeout(timer);
+      // 2.1 一次定时器的使用
+      setTimeout(function() {
+        alert('赶紧去吃饭！');
+      }, 3000);
+    }
+  }
+</script>
+</body>
+</html>

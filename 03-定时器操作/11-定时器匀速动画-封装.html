@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    /* #box {
+      width: 1000px;
+      background-color: blue;
+    } */
+
+    #picId {
+      width: 478px;
+    }
+  </style>
+</head>
+<body> 
+  <button id="btnId">播放/暂停动画</button>
+  <div id="box">
+      <img id="picId" src="../img/7.jpg">
+  </div>
+<script>
+  window.onload = function() {
+    linearAnimation('btn', 'pic', 5, 800);
+  }
+
+  function linearAnimation(btnId, picId, step, target) {
+    // 1. 获取标签
+    let btnId = document.getElementById('btnId');
+    let picId = document.getElementById('picId');
+    //let box = document.getElementById('box');
+    let timer = null, begin = 0;
+
+    // 2.监听按钮的点击
+    btnId.onclick = function() {
+      // 2.1 清除定时器
+      clearInterval(timer);
+
+      //2.2 设置定时器
+      timer = setInterval(function() {
+        begin += step;
+        // 2.2.1 判断
+        if(begin >= target) {
+          begin = target;
+          clearInterval(timer);
+        }
+        // 2.2.2 动起来 
+        picId.style.marginLeft = begin + 'px';
+      }, 50);
+    }
+  }
+</script>
+</body>
+</html>

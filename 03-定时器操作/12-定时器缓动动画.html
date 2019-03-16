@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  </style>
+</head>
+<body> 
+  <button id="btn">开始动画</button>
+  <img id="pic" src="../img/21.jpg">
+<script>
+  window.onload = function() {
+    // 1. 获取标签
+    let btn = document.getElementById('btn');
+    let pic = document.getElementById('pic');
+    let timer = null, begin = 0, target = 800, speed = 0.05;
+
+    // 2. 监听按钮的点击
+    btn.onclick = function() {
+      // 2.1 清除定时器
+      clearInterval(timer);
+
+      // 2.2 设置定时器
+      timer = setInterval(function() {
+        begin += (target - begin) * speed;
+
+        if(Math.ceil(begin) >= target) {
+          begin = target;
+        }
+
+        pic.style.marginLeft = begin + 'px';
+      }, 50);
+    }
+  }
+</script>
+</body>
+</html>

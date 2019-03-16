@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    #box {
+      width: 600px;
+      height: 400px;
+      position: relative;
+      margin: 50px auto;
+      border: 1px solid #ccc;
+    }
+
+    .ul {
+      width: 42px;
+      height: 400px;
+      float: left;
+    }
+
+    #center {
+      width: 516px; 
+      height: 400px;
+      float: left;
+    }
+
+    li {
+      line-height: 43px;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+    }
+
+    #left li:last-child, #right li:last-child {
+      border-bottom: none;
+    }
+
+    .current {
+      background-color: red;
+    }
+  </style>
+</head>
+<body> 
+  <div id="box">
+    <ul class="ul" id="left">
+      <li><a href="#">老婆</a></li>
+      <li><a href="#">老婆</a></li>
+      <li><a href="#">老婆</a></li>
+      <li><a href="#">老婆</a></li>
+      <li><a href="#">老婆</a></li>
+      <li><a href="#">老婆</a></li>
+      <li><a href="#">老婆</a></li>
+      <li><a href="#">老婆</a></li>
+      <li><a href="#">老婆</a></li>
+    </ul>
+    <div id="center">
+      <img id="pic" src="../img/0.jpg" width="516px" height="400px">
+    </div>
+    <ul class="ul" id="right">
+        <li><a href="#">老婆</a></li>
+        <li><a href="#">老婆</a></li>
+        <li><a href="#">老婆</a></li>
+        <li><a href="#">老婆</a></li>
+        <li><a href="#">老婆</a></li>
+        <li><a href="#">老婆</a></li>
+        <li><a href="#">老婆</a></li>
+        <li><a href="#">老婆</a></li>
+        <li><a href="#">老婆</a></li>
+    </ul>
+  </div>
+<script>
+  window.onload = function() {
+    // 1. 获取需要的标签, 定义变量
+    let allLis = document.getElementsByTagName('li');
+    let allImages = document.getElementsByTagName('img');
+    let i = 0, timer = null;
+
+    // 2. 定时器
+    timer = setInterval(function() {
+      i%=18;
+
+      // 2.1 排除之前
+      for(let j = 0; j < allLis.length; j++){
+        allLis[j].className = '';
+      }
+
+      // 2.2 选中当前
+      allLis[i].className = 'current';
+      allLis[i].firstChild.href = '../img/' + i + '.jpg';
+      document.getElementById('pic').src = '../img/' + i + '.jpg';
+      i++;
+    }, 1000);
+
+
+    
+
+
+
+    /* let box = document.getElementById('box');
+    let pic = document.getElementById('pic');
+    let left = document.getElementById('left');
+    let center = document.getElementById('center');
+    let right = document.getElementById('right');
+    let timer = null, i = 0;
+    console.log(document.getElementsByClassName('ul')[0].children.length)
+    // 2. 设置定时器
+   timer = setInterval(function() {
+      if(i < 18){
+        i++;
+        pic.src = '../img/' + i + '.jpg';
+      }else {
+        i = 0;
+      }
+    }, 1000); */
+
+    /* for(let j = 0; j < document.getElementsByClassName('ul').length; j++){
+        for(let k = 0; k < document.getElementsByClassName('ul')[j].children.length; k++){
+           document.getElementsByClassName('ul')[j].children[k].innerHTML = 
+          '<img src="../img/' + i + '.jpg'; 
+          i++;
+          center.innerHTML = '<img src="../img/' + i + '.jpg';
+          
+        }
+      } */
+
+  }
+</script>
+</body>
+</html>
