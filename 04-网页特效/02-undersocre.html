@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  </style>
+</head>
+<body> 
+
+<script src="underscore.js"></script>
+<script>
+  let dataArr = ["航三", 19, "男", 1212, 156156, 11];
+  _.each(dataArr, function(item, index, arr) {
+    console.log(item, index, arr);
+  });
+
+  console.log(_.without(dataArr, 19, "男"));
+
+  console.log(_.random(-10,10));
+</script>
+</body>
+</html>

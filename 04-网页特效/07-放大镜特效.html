@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+      list-style: none;
+    }
+
+    #small_box img {
+      width: 250px;
+      height: 150px;
+    }
+
+    #big_box img {
+      width: 500px;
+      height: 300px;
+    }
+
+    #list img {
+      width: 50px;
+      height: 30px;
+    }
+
+    #box {
+      width: 250px;
+      height: 150px;
+      margin: 100px 0 0 100px;
+      position: relative;
+    }
+
+    #small_box {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #ccc;
+      position: relative;
+      
+    }
+
+    #mask {
+      width: 80px;
+      height: 80px;
+      background-color: rgba(255, 255, 0, .4);
+      position: absolute;
+      left: 0;
+      top: 0;
+      cursor: move;
+      display: none;
+    }
+
+    #big_box {
+      width: 350px;
+      height: 210px;
+      border: 1px solid #ccc;
+      overflow: hidden;
+      position: absolute;
+      left: 260px;
+      top: 0;
+      display: none;
+    }
+
+    #list {
+      margin: 20px 0 0 100px;
+    }
+  </style>
+</head>
+<body> 
+  <div id="box">
+    <div id="small_box">
+      <img src="../img/00.jpg">
+      <span id="mask"></span>
+    </div>
+    <div id="big_box">
+      <img src="../img/00.jpg" style="position: absolute; left:0; top:0">
+    </div>
+  </div>
+  <div id="list">
+    <img src="../img/00.jpg">
+    <img src="../img/01.jpg">
+    <img src="../img/02.jpg">
+  </div>
+<script>
+  window.onload = function() {
+    // 1. 获取需要的标签
+    var box = $('box');
+    var small_box = $('small_box');
+    var mask = $('mask');
+    var big_box = $('big_box');
+    var list = $('list');
+    var big_img = big_box.children[0];
+    var list_img = list.children;
+
+    // 2. 监听鼠标进入小盒子
+    small_box.onmouseover = function() {
+      // 2.1 把隐藏的内容显示
+      mask.style.display = 'block';
+      big_box.style.display = 'block';
+
+      // 2.2 监听鼠标的移动
+      small_box.onmousemove = function(event) {
+        let e = event || window.event;
+
+        // 2.2.1 求出鼠标的坐标
+        let pointX = e.pageX - box.offsetLeft - mask.offsetWidth * 0.5;
+        let pointY = e.pageY - box.offsetTop - mask.offsetHeight * 0.5;
+
+        // 2.2.2 边侧检测
+        if(pointX < 0) {
+          pointX = 0;
+        }else if(pointX >= box.offsetWidth-mask.offsetWidth ) {
+          pointX = box.offsetWidth-mask.offsetWidth;
+        }
+
+        if(pointY < 0) {
+          pointY = 0;
+        }else if(pointY >= box.offsetHeight-mask.offsetHeight ) {
+          pointY = box.offsetHeight-mask.offsetHeight;
+        }
+
+        // 2.2.3 让放大镜移动起来
+        mask.style.left = pointX + 'px';
+        mask.style.top = pointY + 'px';
+
+        // 2.2.4 让大图移动起来
+        /* 
+          smallX / bigX = smallBox.width / bigBox.width
+        */
+       big_img.style.left = - pointX / 
+       (small_box.offsetWidth / big_box.offsetWidth ) + 'px';
+       big_img.style.top = - pointY / 
+       (small_box.offsetHeight / big_box.offsetHeight ) + 'px';
+
+      }
+    }
+
+    // 3. 监听鼠标离开小盒子
+    small_box.onmouseout = function() {
+      // 3.1 把内容重新影隐藏
+      mask.style.display = 'none';
+      big_box.style.display = 'none';
+    }
+
+    for(let i=0; i<list_img.length; i++) {
+      (function (index) {
+        let img = list_img[index];
+        img.onmouseover = function() {
+          small_box.children[0].src = "../img/0" + index + ".jpg"
+          big_img.src = "../img/0" + index + ".jpg"
+        }
+      })(i);
+    }
+
+
+    function $(id) {
+      return typeof id === "string" ? document.getElementById(id) : null;
+    }
+  }
+</script>
+</body>
+</html>

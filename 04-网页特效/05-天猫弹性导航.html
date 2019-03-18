@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      border: 0;
+    }
+
+    body {
+      background-color: pink;
+    }
+
+    #nav {
+      width: 900px;
+      height: 63px;
+      background: url("../images/doubleOne.png") no-repeat right 
+      center #fff;
+      border-radius: 5px;
+      position: relative;
+      margin: 100px auto;
+    }
+
+    #nav ul {
+      position: relative;
+    }
+
+    #nav ul li {
+      float: left;
+      width: 88px;
+      height: 63px;
+      cursor: pointer;
+      text-align: center;
+      line-height: 70px;
+    }
+
+    #t_mall {
+      width: 88px;
+      height: 63px;
+      background: url("../images/tMall.png") no-repeat;
+      position: absolute;
+    }
+
+    /* .current {
+      transition: all 1s;
+      background: url("../images/tMall.png")
+    } */
+
+  </style>
+</head>
+<body> 
+  <nav id="nav">
+    <span id="t_mall"></span>
+    <ul>
+      <li class="current">我爱小七</li>
+      <li>我爱小七</li>
+      <li>我爱小七</li>
+      <li>我爱小七</li>
+      <li>我爱小七</li>
+      <li>我爱小七</li>
+      <li>我爱小七</li>
+      <li>我爱小七</li>
+      <li>我爱小七</li>
+    </ul>
+  </nav>
+<script>
+  window.onload = function() {
+    /* var ul = document.getElementsByTagName('ul')[0];
+    var allLis = ul.children;
+    for(var i=0; i<allLis.length; i++) {
+      let li = allLis[i];
+
+      li.onmouseover = function() {
+        for(let j=0; j<i; j++) {
+          allLis[j].className = 'current';
+          allLis[j].className = '';
+        }
+        li.className = 'current';
+      }
+
+      li.onmouseout = function() {
+        li.className = '';
+        allLis[0].className = 'current';
+      }
+    } */
+
+    // 1. 获取需要的标签
+    var nav = $('nav');
+    var t_mall = $('t_mall');
+    var ul = nav.children[1];
+    var allLis = ul.children;
+    
+    // 记录鼠标点击的位置
+    var beginX = 0;
+
+    // 2. 遍历
+    for(let i=0; i<allLis.length; i++) {
+      let li = allLis[i];
+
+      // 2.1 监听鼠标进入
+      li.onmouseover = function() {
+        let offsetLeft = this.offsetLeft;
+        end = offsetLeft;
+      }
+
+      // 2.2 监听鼠标的点击
+      li.onmousedown = function() {
+        beginX = this.offsetLeft;
+      }
+
+      // 2.3 监听鼠标的离开
+      li.onmouseout = function() {
+        end = beginX;
+      }
+    }
+
+    // 3. 缓动动画
+    var begin = 0, end = 0;
+    setInterval(function() {
+      begin += (end - begin) * 0.1;
+      t_mall.style.left = begin + 'px';
+    }, 10);
+
+    function $(id) {
+      return typeof id === "string" ? document.getElementById(id) : null;
+    }
+  }
+</script>
+</body>
+</html>
