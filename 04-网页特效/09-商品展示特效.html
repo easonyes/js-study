@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+      list-style: none;
+    }
+
+    img {
+      width: 80px;
+      height: 120px;
+      margin: 10px;
+    }
+
+    #box {
+      width: 600px;
+      height: 200px;
+      border: 1px solid #ccc;
+      position: relative;
+      overflow: hidden;
+      margin: 100px auto;
+    }
+
+    ul {
+      width: 3000px;
+      height: 140px;
+      line-height: 140px;
+      position: absolute;
+      left: 0;
+      top: 10px;
+    }
+
+    li {
+      float: left;
+    }
+
+    #progress {
+      width: 100%;
+      height: 30px;
+      position: absolute;
+      background-color: #ccc;
+      left: 0;
+      bottom: 0;
+    }
+
+    span {
+      width: 0;
+      height: 100%;
+      border-radius: 8px;
+      background-color: red;
+      position: absolute;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body> 
+  <div id="box">
+    <ul>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+      <li><img src="../img/17.jpg"></li>
+    </ul>
+    <div id="progress">
+      <span></span>
+    </div>
+  </div>
+<script>
+  window.onload = function() {
+    // 1. 获取需要的标签
+    var box = document.getElementById('box');
+    var ul = box.children[0];
+    var allLis = ul.children;
+    var progress = document.getElementById('progress');
+    var mask = progress.children[0];
+    var x = 0;
+
+    mask.style.width = (box.offsetWidth / ul.offsetWidth)
+     * box.offsetWidth + 'px';
+
+    // 2. 监听鼠标的点击
+    mask.onmousedown = function(event) {
+      // 2.1 记录起始位置
+      let e = event || window.event;
+      offsetLeft = e.clientX - mask.offsetLeft;
+
+      // 3. 监听鼠标的移动
+      document.onmousemove = function(event) {
+        let e = event || window.event;
+        // 3.1 偏移量
+        x = e.clientX - offsetLeft;
+
+        // 3.2 判断边界 
+        if(x < 0) {
+          x = 0;
+        }else if(x >= progress.offsetWidth - mask.offsetWidth) {
+          x = progress.offsetWidth - mask.offsetWidth;
+        }
+
+        // 3.3 进度条的移动
+        mask.style.left = x + 'px';
+
+        // 4. 图片的移动
+        ul.style.left = (-x / 
+        ((progress.offsetWidth - mask.offsetWidth) / 
+        (ul.offsetWidth - box.offsetWidth))) + 'px';
+
+        return false;
+      }
+
+      document.onmouseup = function() {
+        document.onmousemove = null;
+      }
+    }
+
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+      list-style: none;
+    }
+
+    body {
+      width: 2000px;
+      height: 3000px;
+    }
+  </style>
+</head>
+<body> 
+  
+<script>
+  window.onload = function() {
+    /* 
+      scrollTop, scrollLeft 被浏览器卷去的高度和宽度
+     */
+
+    /* window.onscroll = function() {
+      console.log(document.documentElement.scrollTop + ',' + 
+      document.documentElement.scrollLeft);
+      //console.log(window.pageXOffset + ',' + window.pageYOffset);
+    } */
+
+    // 全兼容写法！
+    window.onscroll = function() {
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      var scrollLeft = window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft || 0;
+      console.log(scrollTop, scrollLeft);
+    }
+  }
+
+  /* window.onscroll = function () {
+        ie9+ 和 最新浏览器
+        // console.log(window.pageXOffset, window.pageYOffset);
+
+        // console.log(document.documentElement.scrollTop, document.documentElement.scrollLeft);
+
+      //   console.log(document.body.scrollTop, document.body.scrollLeft);
+
+        var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var scrollLeft = window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft || 0;
+        console.log(scrollTop, scrollLeft);
+    } */
+
+</script>
+</body>
+</html>

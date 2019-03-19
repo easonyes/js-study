@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+      list-style: none;
+    }
+
+    #box {
+      width: 800px;
+      height: 30px;
+      margin: 100px;
+      background-color: #ccc;
+      position: relative;
+      border-radius: 10px;
+    }
+
+    #btn {
+      width: 30px;
+      height: 50px;
+      background-color: red;
+      position: absolute;
+      left: 0;
+      top: -10px;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+
+    #present {
+      position: absolute;
+      top: 5px;
+      right: -50px;
+    }
+
+    #left {
+      width: 0;
+      height: 100%;
+      background-color: red;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+  </style>
+</head>
+<body> 
+  <div id="box">
+    <div id="left"></div>
+    <div id="btn"></div>
+    <span id="present">0%</span>
+  </div>
+<script>
+  window.onload = function() {
+    // 1. 获取需要的标签
+    var box = document.getElementById('box');
+    var btn = document.getElementById('btn');
+    var present = document.getElementById('present');
+    var left = document.getElementById('left');
+    var x = 0;
+
+    // 2. 监听鼠标的按下
+    btn.onmousedown = function(event) {
+      // 2.1 获取初始位置
+      let e = event || window.event;
+      let offsetLeft = e.pageX - btn.offsetLeft;
+
+      // 3. 监听鼠标的移动
+      document.onmousemove = function(event) {
+        let e = event || window.event;
+        /* if(btn.onmouseup) {
+          break;
+        } */
+        x = e.pageX - offsetLeft;
+        if(x < 0){
+          x = 0;
+        }else if(x >= box.offsetWidth - btn.offsetWidth) {
+          x = box.offsetWidth - btn.offsetWidth;
+        }
+        btn.style.left = x + 'px';
+        left.style.width = x + 'px';
+        present.innerText = 
+        parseInt((btn.offsetLeft / (box.offsetWidth-btn.offsetWidth)) * 100) + '%';
+        
+        return false;
+      }
+
+      document.onmouseup = function() {
+        document.onmousemove = null;
+      }
+
+      
+    }
+
+  }
+</script>
+</body>
+</html>

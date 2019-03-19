@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+html body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+
+  position: relative;
+}
+
+.box {
+  float: left;
+  padding: 15px 0 0 15px;
+}
+
+.pic {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.pic img {
+  width: 165px;
+}
