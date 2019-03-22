@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    #father {
+      width: 600px;
+      height: 600px;
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <div id="father">
+    <button id="btn">小七</button>
+  </div>
+  <script src="../js/myFunc.js"></script>
+<script>
+  const father = document.getElementById('father');
+  const btn = document.getElementById('btn');
+
+  btn.onclick = function (event) {
+    if (event && event.stopPropagation()) { // w3c标准
+      event.stopPropagation();
+    } else { // IE系列 IE 678
+      event.cancelBubble = true;
+    }
+    alert(1);
+  };
+
+  father.onclick = function () {
+    stopPro();
+    alert(2);
+  };
+
+  document.getElementsByTagName('body')[0].onclick = function () {
+    alert(3);
+  };
+
+  document.getElementsByTagName('html')[0].onclick = function () {
+    alert(4);
+  };
+
+  document.onclick = function () {
+    alert(5);
+  };
+
+  window.onclick = function () {
+    alert(6);
+  };
+
+</script>
+</body>
+</html>

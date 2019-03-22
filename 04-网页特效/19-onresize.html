@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+      list-style: none;
+    }
+  </style>
+</head>
+<body>
+
+<script src="../js/myFunc.js"></script>
+<script>
+  window.onload = function() {
+    window.onresize = function () {
+      if (client().width >= 960) {
+        document.getElementsByTagName("html")[0].style.backgroundColor = 'red';
+      }else if (client().width < 640) {
+        document.getElementsByTagName("html")[0].style.backgroundColor = 'green';
+      } else {
+        document.getElementsByTagName("html")[0].style.backgroundColor = 'blue';
+      }
+    }
+  }
+</script>
+</body>
+</html>

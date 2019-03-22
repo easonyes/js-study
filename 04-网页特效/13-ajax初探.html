@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    
+  </style>
+</head>
+<body> 
+
+  <div id="myDiv"></div>
+  <button onclick="loadXMLDoc()">第一个ajax</button>
+
+<script src="../js/myFunc.js"></script>
+<script>
+  // 失败
+  function loadXMLDoc() {
+    var xmlhttp;
+    if(window.XMLHttpRequest) {
+      // IE7+, firefox, chrome, opera, safari 浏览器执行代码
+      xmlhttp = new XMLHttpRequest();
+    }else {
+      // IE6, IE5 浏览器执行代码
+      xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange = function() {
+      if(xmlhttp.readystate == 4 && xmlhttp.status == 200){
+        $(myDiv).innerHtml = xmlhttp.responseText;
+      }
+      xmlhttp.open("GET", "../img/00.jpg", true);
+      xmlhttp.send();
+    }
+  }
+</script>
+</body>
+</html>

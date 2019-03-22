@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+      list-style: none;
+    }
+    
+    body {
+      background-color: #ccc;
+    }
+    p {
+      text-align: center;
+      height: 50px;
+      font-size: 20px;
+    }
+
+    #back {
+      width: 43px;
+      height: 43px;
+      background: url("../images/top.jpg") no-repeat;
+      background-size: 100% 100%;
+      bottom: 30px;
+      right: 10px;
+      position: fixed;
+      display: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <p>今天也是爱小七的一天111~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <p>今天也是爱小七的一天~~</p>
+  <div id="back"></div>
+  <script src="../js/myFunc.js"></script>
+<script>
+  window.onload = function() {
+    // 1. 获取图片的 offsetHeight
+    let back = $("back");
+    let back_top = back.offsetTop;
+    let begin = 0, end = 0, timer = null, scroll_top = 0;
+
+    // 2. 控制图片的位置
+    window.onscroll = function () {
+      scroll_top = scroll().top;
+      if (scroll_top > 0) {
+        back.style.display = 'block';
+      } else {
+        back.style.display = 'none';
+      }
+    };
+
+    // 3. 监听图片的点击
+    back.onclick = function () {
+      // 3.1 清除定时器
+      clearInterval(timer);
+
+      // 3.2 缓动动画
+      timer = setInterval(function () {
+        begin = scroll().top;
+        begin += (end - begin) * 0.05;
+        window.scrollTo(0, begin);
+
+        // 清除定时器
+        if (Math.round(begin) === end) {
+          clearInterval(timer);
+        }
+      }, 20);
+    }
+  };
+</script>
+</body>
+</html>

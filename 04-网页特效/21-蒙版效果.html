@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+      list-style: none;
+    }
+
+    html, body {
+      width: 100%;
+      height: 3000px;
+    }
+
+    #panel {
+      height: 100%;
+      width: 100%;
+      background: #000;
+      opacity: 0.4;
+      filter: alpha(opacity: 40);
+
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: none;
+    }
+
+    #login {
+      width: 300px;
+      height: 300px;
+      background-color: skyblue;
+      border-radius: 5px;
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      margin: -150px 0 0 -150px;
+
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <button id="btn">登录</button>
+  <div id="panel"></div>
+  <div id="login"></div>
+<script src="../js/myFunc.js"></script>
+<script>
+  window.onload = function() {
+    // 1. 监听按钮的点击
+    $('btn').onclick = function () {
+      // 阻止冒泡
+      stopPro();
+
+      // 1.1 显示面板和蒙版
+      $('panel').style.display = 'block';
+      $('login').style.display = 'block';
+
+      // 1.2 隐藏滚动条
+      document.body.style.overflow = 'hidden';
+    };
+
+    // 2. 点击文档
+    document.onclick = function (e) {
+      let event = e || window.event;
+      // 2.1 获取点击的标签
+      let targetId = event.target ? event.target.id : event.srcElement.id;
+      // 2.1 判断点击区域
+      // console.log(targetId);
+      if (targetId !== 'login') {
+        // 2.1.1 隐藏面板和蒙版 及 显示滚动条
+        $('panel').style.display = 'none';
+        $('login').style.display = 'none';
+        document.body.style.overflow = '';
+      } else {
+        // window.location.href = "http://www.baidu.com";
+        window.open("http://www.bilibili.com");
+      }
+    }
+  }
+</script>
+</body>
+</html>
