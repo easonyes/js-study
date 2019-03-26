@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+      list-style: none;
+    }
+  </style>
+</head>
+<body>
+
+<script src="../js/myFunc.js"></script>
+<script>
+  window.onload = function() {
+function buffer(obj, data, n, ms) {
+// 1. 清除定时器
+      clearInterval(obj.timer);
+
+// 2. 设置定时器
+      let begin = 0, target = 0, speed = 0;
+      obj.timer = setInterval(function () {
+        // 2.0.0 旗帜
+        let flag = true;
+        for (let k in data) {
+          // 2.0 获取初始值
+          begin = parseInt(getStyleAttr(obj, k)) || 0;
+          target = parseInt(data[k]);
+
+          // 2.1 求出步长
+          speed = (target - begin) / n;
+
+          // 2.2 判断取整方向
+          speed = (target > begin) ? Math.ceil(speed) : Math.floor(speed);
+          // 2.2 动起来
+          obj.style[k] = begin + speed + 'px';
+          if (begin !== target) {
+            flag = false;
+          }
+          obj.innerText = begin;
+        }
+        // 3. 清除定时器
+        if (flag) {
+          clearInterval(obj.timer);
+        }
+      }, ms);
+    }
+</script>
+</body>
+</html>

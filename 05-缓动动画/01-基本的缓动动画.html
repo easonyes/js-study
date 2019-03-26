@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+      list-style: none;
+    }
+    
+    #box {
+      width: 100px;
+      height: 100px;
+      background-color: #ccc;
+      left: 400px;
+
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <button id="move">动起来</button>
+  <div id="box"></div>
+<script src="../js/myFunc.js"></script>
+<script>
+  window.onload = function() {
+    const box = $("box");
+    const move = $("move");
+    let timer = null, target = 400, begin = 0;
+
+    // 监听按钮的点击
+    move.onclick = function () {
+      buffer(box, {'width': 400, 'top': 200, 'height': 300, 'left': 600}, 10, 20);
+      //buffer(box, 'height', 400, 10, 20);
+      /*clearInterval(timer);
+
+      timer = setInterval(function () {
+
+        begin = box.offsetLeft;
+        let speed =(target - begin) * 0.1;
+        box.style.left = Math.ceil(speed) + begin + 'px';
+        if (box.offsetLeft === target) {
+          clearInterval(timer);
+        }
+      }, 20);*/
+    }
+  }
+</script>
+</body>
+</html>

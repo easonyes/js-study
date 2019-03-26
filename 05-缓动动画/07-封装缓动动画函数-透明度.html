@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+      list-style: none;
+    }
+    #box {
+      background-color: skyblue;
+      width: 300px;
+      height: 300px;
+      left: 500px;
+
+      position: absolute;
+      /*opacity: 0.2;*/
+      /*filter: alpha(opacity:20);*/
+    }
+  </style>
+</head>
+<body>
+<div id="box"></div>
+<button id="btn">点我</button>
+
+<script src="../js/myFunc.js"></script>
+<script>
+  $("btn").onclick = function() {
+    buffer($("box"),
+      {'width': 200, 'height': 200, 'left': 300, 'top': 200},
+      10, 20, function () {
+        buffer($("box"),
+          {'width': 400, 'height': 400, 'left': 100, 'top': 100, 'opacity': 0.1},
+          10, 20, null);
+      });
+  };
+
+  function buffer(obj, data, n, ms, fn) {
+// 1. 清除定时器
+    clearInterval(obj.timer);
+
+// 2. 设置定时器
+    let begin = 0, target = 0, speed = 0;
+    obj.timer = setInterval(function () {
+      // 2.0.0 旗帜
+      let flag = true;
+      for (let k in data) {
+        // 2.0 获取初始值
+        if ('opacity' === k) {
+          begin = Math.round(parseFloat(getStyleAttr(obj, k)) * 100 )  || 100;
+          target = parseInt(data[k] * 100);
+        } else {
+          begin = parseInt(getStyleAttr(obj, k)) || 0;
+          target = parseInt(data[k]);
+        }
+
+        // 2.1 求出步长
+        speed = (target - begin) / n;
+
+        // 2.2 判断取整方向
+        speed = (target > begin) ? Math.ceil(speed) : Math.floor(speed);
+        // 2.2 动起来
+        if ('opacity' === k) {
+          obj.style[k] = (begin + speed) / 100;
+          obj.style.filter = 'alpha(opacity:' + (begin + speed) + ')';
+        } else {
+          obj.style[k] = begin + speed + 'px';
+        }
+        if (begin !== target) {
+          flag = false;
+        }
+        obj.innerText = begin;
+      }
+      // 3. 清除定时器
+      if (flag) {
+        clearInterval(obj.timer);
+
+        // 判断有没有回调函数
+        if (fn) {
+          fn();
+        }
+      }
+    }, ms);
+  }
+</script>
+</body>
+</html>

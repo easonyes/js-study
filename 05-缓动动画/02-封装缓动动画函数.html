@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+      list-style: none;
+    }
+  </style>
+</head>
+<body>
+
+<script src="../js/myFunc.js"></script>
+<script>
+  window.onload = function() {
+
+    function buffer(obj, target, n, ms) {
+      // 1. 清除定时器
+      clearInterval(obj.timer);
+
+      // 2. 设置定时器
+      obj.timer = setInterval(function () {
+
+        // 2.1 求出步长
+        let speed = (target - obj.offsetLeft) / n;
+
+        // 2.2 判断取整方向
+        speed = (target > obj.offsetLeft) ? Math.ceil(speed) : Math.floor(speed);
+        // 2.2 动起来
+        obj.style.left = obj.offsetLeft + speed + 'px';
+        obj.innerText = obj.offsetLeft;
+        if (obj.offsetLeft === target) {
+          clearInterval(obj.timer);
+        }
+      }, ms);
+
+    }
+  }
+</script>
+</body>
+</html>

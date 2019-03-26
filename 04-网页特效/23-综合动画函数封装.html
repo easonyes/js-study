@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+      list-style: none;
+    }
+    
+    div {
+      width: 200px;
+      height: 200px;
+      background-color: #ccc;
+      left: 500px;
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+
+<div id="box"></div>
+<script src="../js/myFunc.js"></script>
+<script>
+  window.onload = function() {
+  constant($("box"), 200, 20);
+    console.log(typeof null);
+  };
+
+
+</script>
+</body>
+</html>

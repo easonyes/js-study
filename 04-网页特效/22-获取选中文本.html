@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+      list-style: none;
+    }
+
+    p {
+      margin: 100px;
+      width: 300px;
+    }
+
+    #share_text {
+      background-color: skyblue;
+      width: 150px;
+      color: orange;
+      position: absolute;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <p id="text">赖小七，赖小七，我的老婆赖小七！！！赖小七，赖小七，我的老婆赖小七！！！
+    赖小七，赖小七，我的老婆赖小七！！！赖小七，赖小七，我的老婆赖小七！！！
+    赖小七，赖小七，我的老婆赖小七！！！赖小七，赖小七，我的老婆赖小七！！！
+    赖小七，赖小七，我的老婆赖小七！！！赖小七，赖小七，我的老婆赖小七！！！
+    赖小七，赖小七，我的老婆赖小七！！！赖小七，赖小七，我的老婆赖小七！！！</p>
+
+  <div id="share_text"></div>
+<script src="../js/myFunc.js"></script>
+<script>
+  window.onload = function() {
+    // 1. 监听鼠标的抬起
+    $("text").onmouseup = function (e) {
+      let event = e || window.event;
+      // 1.1 获取选中的文字
+      let selectedText;
+      if (window.getSelection()) {
+        selectedText = window.getSelection().toString();
+      } else {
+        selectedText = document.selection.createRange().text;
+      }
+
+      // 1.2 显示面板
+      if (selectedText !== "") {
+        $("share_text").innerText = selectedText;
+        $("share_text").style.display = 'block';
+        $("share_text").style.left = event.clientX + 'px';
+        $("share_text").style.top = event.clientY + 'px';
+      }
+
+    };
+    // 2. 监听文档的点击
+    document.onmousedown = function (event) {
+      let e = event || window.event;
+
+      // 2.1 获取点击区域的id
+      let targetId = e.target ? e.target.id : e.srcElement.id;
+
+      // 2.2 判断
+      if (targetId !== 'share_text') {
+        $("share_text").style.display = 'none';
+      }
+
+      window.getSelection() ? window.getSelection().removeAllRanges() :
+        document.selection.empty();
+    }
+  }
+</script>
+</body>
+</html>

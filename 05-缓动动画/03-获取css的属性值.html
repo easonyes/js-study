@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    #box {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      border: 5px solid #ccc;
+    }
+  </style>
+</head>
+
+<body>
+<div id="box"></div>
+<button id="btn">获取属性值</button>
+<script>
+  let box = document.getElementById("box");
+  let btn = document.getElementById("btn");
+
+  btn.onclick = function () {
+    //console.log(box.style.width);
+    console.log(window.getComputedStyle(box, null)['width']);
+  }
+</script>
+</body>
+</html>
