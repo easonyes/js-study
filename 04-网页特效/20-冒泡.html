@@ -20,7 +20,7 @@
   const father = document.getElementById('father');
   const btn = document.getElementById('btn');
 
-  btn.onclick = function (event) {
+  btn.onmouseover = function (event) {
     if (event && event.stopPropagation()) { // w3c标准
       event.stopPropagation();
     } else { // IE系列 IE 678
@@ -29,7 +29,7 @@
     alert(1);
   };
 
-  father.onclick = function () {
+  father.onmouseover = function () {
     stopPro();
     alert(2);
   };

@@ -111,6 +111,9 @@ function buffer(obj, data, n, ms, fn) {
       if ('opacity' === k) {
         begin = Math.round(parseFloat(getStyleAttr(obj, k)) * 100 )  || 100;
         target = parseInt(data[k] * 100);
+      } else if ("scrollTop" === k) {
+        begin = obj.scrollTop;
+        target = parseInt(data[k]);
       } else {
         begin = parseInt(getStyleAttr(obj, k)) || 0;
         target = parseInt(data[k]);
@@ -125,9 +128,12 @@ function buffer(obj, data, n, ms, fn) {
       if ('opacity' === k) {
         obj.style[k] = (begin + speed) / 100;
         obj.style.filter = 'alpha(opacity:' + (begin + speed) + ')';
+      } else if ("scrollTop" === k) {
+        obj.scrollTop = begin + speed;
       } else {
         obj.style[k] = begin + speed + 'px';
       }
+      console.log(begin, target);
       if (begin !== target) {
         flag = false;
       }

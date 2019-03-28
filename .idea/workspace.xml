@@ -2,24 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d858e86-570f-4002-8102-95a7d6c5f916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/04-网页特效/22-获取选中文本.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-网页特效/23-综合动画函数封装.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-网页特效/24-无限轮播.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-网页特效/25-Math常用函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-缓动动画/01-基本的缓动动画.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-缓动动画/02-封装缓动动画函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-缓动动画/03-获取css的属性值.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-缓动动画/04-JSON的差异化.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-缓动动画/05-封装缓动动画函数-多值.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-缓动动画/06-封装缓动动画函数-回调.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-缓动动画/07-封装缓动动画函数-透明度.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-缓动动画/08-联动特效.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-缓动动画/img/bottom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-缓动动画/img/top.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-缓动动画/09-楼层特效.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-缓动动画/10-音乐导航.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-缓动动画/img/_r1_c1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-缓动动画/source/HTML 5 视频_音频参考手册.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-缓动动画/source/a1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-缓动动画/source/a2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-缓动动画/source/a3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-缓动动画/source/a4.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-缓动动画/source/a5.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-缓动动画/source/a6.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-缓动动画/source/a7.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-缓动动画/source/a8.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-缓动动画/source/a9.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-网页特效/05-天猫弹性导航.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-网页特效/05-天猫弹性导航.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-网页特效/20-冒泡.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-网页特效/20-冒泡.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/myFunc.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/myFunc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-work-1/my-app" beforeDir="false" afterPath="$PROJECT_DIR$/react-work-1/my-app" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-work-1/my-app/src/App.css" beforeDir="false" />
@@ -48,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01-模版.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="9" lean-forward="true" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="225">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -57,30 +54,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/myFunc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="132" column="7" selection-start-line="132" selection-start-column="7" selection-end-line="132" selection-end-column="7" />
+            <state relative-caret-position="301">
+              <caret line="115" column="35" lean-forward="true" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
               <folding>
                 <element signature="n#!!block;n#$#0" />
                 <element signature="n#!!block;n#scroll#0" />
                 <element signature="n#!!block;n#client#0" />
                 <element signature="n#!!block;n#stopPro#0" />
                 <element signature="n#!!block;n#constant#0" />
+                <element signature="n#!!block;n#getStyleAttr#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05-缓动动画/08-联动特效.html">
+        <entry file="file://$PROJECT_DIR$/05-缓动动画/10-音乐导航.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+            <state relative-caret-position="397">
+              <caret line="100" column="23" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="23" />
+              <folding>
+                <element signature="e#1933#1947#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-缓动动画/img/bottom.jpg">
+        <entry file="file://$PROJECT_DIR$/05-缓动动画/img/_r1_c1.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -115,14 +116,12 @@
         <option value="$PROJECT_DIR$/04-网页特效/13-ajax初探.html" />
         <option value="$PROJECT_DIR$/04-网页特效/js/14-中部导航吸顶.html" />
         <option value="$PROJECT_DIR$/04-网页特效/11-JSON.html" />
-        <option value="$PROJECT_DIR$/01-模版.html" />
         <option value="$PROJECT_DIR$/04-网页特效/14-中部导航吸顶.html" />
         <option value="$PROJECT_DIR$/04-网页特效/15-侧边横幅特效.html" />
         <option value="$PROJECT_DIR$/04-网页特效/16-返回顶部.html" />
         <option value="$PROJECT_DIR$/04-网页特效/17-client家族.html" />
         <option value="$PROJECT_DIR$/04-网页特效/18-三大家族的区别.html" />
         <option value="$PROJECT_DIR$/04-网页特效/19-onresize.html" />
-        <option value="$PROJECT_DIR$/04-网页特效/20-冒泡.html" />
         <option value="$PROJECT_DIR$/04-网页特效/21-蒙版效果.html" />
         <option value="$PROJECT_DIR$/04-网页特效/22-微博分享.html" />
         <option value="$PROJECT_DIR$/04-网页特效/综合动画函数封装.html" />
@@ -139,13 +138,17 @@
         <option value="$PROJECT_DIR$/05-缓动动画/07-封装缓动动画函数-透明度.html" />
         <option value="$PROJECT_DIR$/05-缓动动画/08-联动特效.html" />
         <option value="$PROJECT_DIR$/js/myFunc.js" />
+        <option value="$PROJECT_DIR$/05-缓动动画/09-楼层特效.html" />
+        <option value="$PROJECT_DIR$/01-模版.html" />
+        <option value="$PROJECT_DIR$/04-网页特效/20-冒泡.html" />
+        <option value="$PROJECT_DIR$/05-缓动动画/10-音乐导航.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="508" />
-    <option name="y" value="105" />
-    <option name="width" value="808" />
+    <option name="x" value="780" />
+    <option name="y" value="112" />
+    <option name="width" value="821" />
     <option name="height" value="880" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -156,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,18 +169,13 @@
             <path>
               <item name="js-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-study" type="462c0819:PsiDirectoryNode" />
-              <item name="05-缓动动画" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-study" type="462c0819:PsiDirectoryNode" />
-              <item name="05-缓动动画" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="04-网页特效" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,6 +186,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\js-study\05-缓动动画" />
       <recent name="D:\js-study\05-缓动动画\img" />
     </key>
   </component>
@@ -229,16 +227,17 @@
       <workItem from="1553236756792" duration="4279000" />
       <workItem from="1553493512522" duration="10707000" />
       <workItem from="1553573619596" duration="16535000" />
+      <workItem from="1553754216202" duration="9248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40933000" />
+    <option name="totallyTimeSpent" value="50181000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="508" y="105" width="808" height="880" extended-state="0" />
+    <frame x="780" y="112" width="821" height="880" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.31688312" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31673053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -261,27 +260,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/04-网页特效/13-ajax初探.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-网页特效/11-JSON.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="64" column="3" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-网页特效/14-中部导航吸顶.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-网页特效/15-侧边横幅特效.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -319,13 +297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="25" column="78" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-网页特效/20-冒泡.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
@@ -444,13 +415,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-网页特效/26-缓动动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/04-网页特效/26-缓动动画.html" />
     <entry file="file://$PROJECT_DIR$/05-缓动动画/02-封装缓动动画函数.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -493,16 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-缓动动画/img/bottom.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-模版.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="9" lean-forward="true" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-缓动动画/07-封装缓动动画函数-透明度.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -510,24 +465,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/05-缓动动画/img/bottom.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-缓动动画/08-联动特效.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-模版.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-缓动动画/09-楼层特效.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="140" column="39" selection-start-line="140" selection-start-column="39" selection-end-line="140" selection-end-column="39" />
+          <folding>
+            <element signature="e#2029#2248#0" />
+            <element signature="e#2834#3168#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-网页特效/20-冒泡.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/myFunc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="132" column="7" selection-start-line="132" selection-start-column="7" selection-end-line="132" selection-end-column="7" />
+        <state relative-caret-position="301">
+          <caret line="115" column="35" lean-forward="true" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
           <folding>
             <element signature="n#!!block;n#$#0" />
             <element signature="n#!!block;n#scroll#0" />
             <element signature="n#!!block;n#client#0" />
             <element signature="n#!!block;n#stopPro#0" />
             <element signature="n#!!block;n#constant#0" />
+            <element signature="n#!!block;n#getStyleAttr#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-缓动动画/08-联动特效.html">
+    <entry file="file://$PROJECT_DIR$/05-缓动动画/img/_r1_c1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-缓动动画/10-音乐导航.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        <state relative-caret-position="397">
+          <caret line="100" column="23" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="23" />
+          <folding>
+            <element signature="e#1933#1947#0" />
+          </folding>
         </state>
       </provider>
     </entry>
