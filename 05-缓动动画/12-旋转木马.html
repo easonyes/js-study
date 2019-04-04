@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+      list-style: none;
+    }
+
+    img {
+      vertical-align: top;
+    }
+    
+    body {
+      background-color: #000;
+    }
+
+    #slider {
+      width: 1200px;
+      height: 460px;
+      margin: 100px auto;
+
+      position: relative;
+    }
+
+    #slider li{
+      left: 200px;
+      top: 0;
+      position: absolute;
+    }
+
+    #slider li img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .slider-ctl-prev, .slider-ctl-next {
+      width: 76px;
+      height: 112px;
+      position: absolute;
+      top: 50%;
+      margin-top: -56px;
+      z-index: 99;
+    }
+
+    #slider_ctl {
+      opacity: 0;
+    }
+
+    .slider-ctl-prev {
+      background: url("img/prev.png") no-repeat;
+      left: 0;
+    }
+
+    .slider-ctl-next {
+      background: url("img/next.png") no-repeat;
+      right: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="slider">
+    <ul id="slider_main">
+      <li><img src="img/slidepic1.jpg" alt=""></li>
+      <li><img src="img/slidepic2.jpg" alt=""></li>
+      <li><img src="img/slidepic3.jpg" alt=""></li>
+      <li><img src="img/slidepic4.jpg" alt=""></li>
+      <li><img src="img/slidepic5.jpg" alt=""></li>
+    </ul>
+    <div id="slider_ctl">
+      <span id="slider_ctl_prev" class="slider-ctl-prev"></span>
+      <span id="slider_ctl_next" class="slider-ctl-next"></span>
+    </div>
+  </div>
+<script src="../js/myFunc.js"></script>
+<script>
+  window.onload = function() {
+    // 1. 获取需要的标签
+    let slider = $("slider");
+    let slider_main = $("slider_main");
+    let allLis = slider_main.children;
+    let slider_ctl = $("slider_ctl");
+
+    // 2.设置指示器的显示和隐藏
+    slider.onmouseover = function () {
+      buffer(slider_ctl, {"opacity": 1}, 10, 20, null);
+    };
+    slider.onmouseout = function () {
+      buffer(slider_ctl, {"opacity": 0}, 10, 20, null);
+    };
+
+    // 3.定位
+    let json = [
+      {
+        width: 400,
+        top: 20,
+        left: 50,
+        opacity: 0.2,
+        zIndex: 2,
+      },
+      {
+        width: 600,
+        top: 70,
+        left: 0,
+        opacity:0.8,
+        zIndex:3,
+      },
+      {
+        width:800,
+        top:100,
+        left:200,
+        opacity:1,
+        zIndex:4,
+      },
+      {
+        width:600,
+        top:70,
+        left:600,
+        opacity:0.8,
+        zIndex:3,
+      },
+      {
+        width:400,
+        top:20,
+        left:750,
+        opacity:0.2,
+        zIndex:2,
+      },
+    ];
+
+    for (let i=0; i<json.length; i++) {
+      buffer(allLis[i], json[i], 10, 20, null);
+    }
+
+    // 4.监听按钮的点击
+    for (let i=0; i<slider_ctl.children.length; i++) {
+      let item = slider_ctl.children[i];
+      item.onmousedown = function () {
+        if (this.className === 'slider-ctl-prev') {
+          json.push(json.shift());
+        }
+        if (this.className === 'slider-ctl-next') {
+          json.unshift(json.pop());
+        }
+        for (let i=0; i<json.length; i++) {
+          buffer(allLis[i], json[i], 10, 20, null);
+        }
+      }
+    }
+  }
+</script>
+</body>
+</html>

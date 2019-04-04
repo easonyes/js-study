@@ -27,7 +27,7 @@ function scroll() {
 
   return {
     top: document.body.scrollTop,
-    left: document.scrollLeft,
+    left: document.body.offsetLeft,
   };
 }
 
@@ -109,11 +109,13 @@ function buffer(obj, data, n, ms, fn) {
     for (let k in data) {
       // 2.0 获取初始值
       if ('opacity' === k) {
-        begin = Math.round(parseFloat(getStyleAttr(obj, k)) * 100 )  || 100;
-        target = parseInt(data[k] * 100);
+        begin = parseInt(parseFloat(getStyleAttr(obj, k)) * 100 );
+        target = parseInt(parseFloat(data[k]) * 100);
       } else if ("scrollTop" === k) {
         begin = obj.scrollTop;
         target = parseInt(data[k]);
+      } else if ("zIndex" === k) {
+        obj.style[k] = data[k];
       } else {
         begin = parseInt(getStyleAttr(obj, k)) || 0;
         target = parseInt(data[k]);
@@ -133,7 +135,7 @@ function buffer(obj, data, n, ms, fn) {
       } else {
         obj.style[k] = begin + speed + 'px';
       }
-      console.log(begin, target);
+      //console.log(begin, target);
       if (begin !== target) {
         flag = false;
       }
