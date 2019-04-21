@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="box"></div>
+<script>
+  function Rect(option) {
+    this._init(option);
+  }
+
+  Rect.prototype = {
+    _init: function (option) {
+      let op = option || {};
+      // 父标签的id
+      this.parentId = op.parentId;
+      // 位置
+      this.left = op.left || 0;
+      this.top = op.top || 0;
+      // 自身属性
+      this.width = op.width || 100;
+      this.height = op.height || 100;
+      this.backgroundColor = op.backgroundColor || 'skyblue';
+      this.border = op.border || 0;
+      this.borderRadius = op.borderRadius || 0;
+
+    },
+
+    // 绘制矩形
+    render: function () {
+      let parentNode = document.getElementById(this.parentId);
+      let childNode = document.createElement("div");
+      childNode.style.position = "absolute";
+      childNode.style.left = this.left + 'px';
+      childNode.style.top = this.top + 'px';
+
+      childNode.style.width = this.width + 'px';
+      childNode.style.height = this.height + 'px';
+      childNode.style.backgroundColor = this.backgroundColor;
+      childNode.style.border = this.border;
+      childNode.style.borderRadius = this.borderRadius + 'px';
+
+      parentNode.appendChild(childNode);
+    },
+  };
+
+  let rect = new Rect({
+    parentId: "box",
+    left: 200,
+    top: 200,
+    width: 300,
+    border: "5px solid #ccc",
+    borderRadius: 20
+  });
+  rect.render();
+  console.log(rect);
+</script>
+</body>
+</html>
