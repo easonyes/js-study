@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    li{
+      background-color: #ccc;
+      border: solid 1px #000;
+      cursor: pointer;
+    }
+    .current{
+      background-color: skyblue;
+    }
+  </style>
+</head>
+<body>
+<ul>
+  <li class="current"></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+<script>
+  /*let allLis = document.getElementsByTagName('li');
+  for (let i=0; i < allLis.length; i++){
+    allLis[i].onmouseover = function () {
+      for (let j=0; j < allLis.length; j++) {
+        allLis[j].className = '';
+      }
+      this.className = 'current';
+    }
+  }*/
+
+  let allLis = document.getElementsByTagName('li');
+  let lastOne = 0;
+  for (let i=0; i < allLis.length; i++){
+    (function (index) {
+      allLis[index].onmouseover = function () {
+        // 清楚之前的类名
+        allLis[lastOne].className = '';
+        this.className = 'current';
+        lastOne = index;
+      }
+    })(i);
+  }
+</script>
+</body>
+</html>

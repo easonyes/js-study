@@ -2,36 +2,152 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d858e86-570f-4002-8102-95a7d6c5f916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-面向对象和闭包/01-狗类.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-面向对象和闭包/02-矩形.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-面向对象和闭包/03-基本的闭包.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-router-example/res/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-router-example/src/components/About/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-router-example/src/components/About/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-router-example/src/components/App/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-router-example/src/components/App/appStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-router-example/src/components/App/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-router-example/src/components/Repos/Repos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-router-example/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-router-example/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-study-1/app/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-study-1/app/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-study-2/app1/src/before/ComponentLifeCycle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-study-2/app1/src/before/MarkdownEditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-study-2/app1/src/before/Timer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-study-2/app1/src/before/TodoApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-study-2/app1/src/before/UserGitHub.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-study-3/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-study-3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-study-3/src/components/Contacts/Contacts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-study-3/src/components/Home/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-study-3/src/components/NavLink/NavLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-study-3/src/components/Repos/Repos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-study-3/src/components/User/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/js-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/js-study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-面向对象和闭包/.idea/06-面向对象和闭包.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-面向对象和闭包/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-面向对象和闭包/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-面向对象和闭包/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-面向对象和闭包/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-面向对象和闭包/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-面向对象和闭包/04-封闭作用域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-面向对象和闭包/05-作用域链.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-面向对象和闭包/06-高级排他.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-面向对象和闭包/07-闭包的参数传递.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-面向对象和闭包/08-函数节流.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-面向对象和闭包/img/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-面向对象和闭包/img/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/img/头像9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/components/header-selector/header-selector.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/components/nav-footer/imgs/dashen-selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/components/nav-footer/imgs/dashen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/components/nav-footer/imgs/laoban-selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/components/nav-footer/imgs/laoban.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/components/nav-footer/imgs/message-selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/components/nav-footer/imgs/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/components/nav-footer/imgs/personal-selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/components/nav-footer/imgs/personal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/components/nav-footer/nav-footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/components/not-found/not-found.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/components/user-list/user-list.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/containers/chat/chat.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/containers/dashen-info/dashen-info.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/containers/dashen/dashen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/containers/laoban-info/laoban-info.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/containers/laoban/laoban.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/containers/message/message.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/containers/personal/personal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/test/socketio_test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzhipin-client/src/utils/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-网页特效/21-蒙版效果.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-网页特效/21-蒙版效果.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-面向对象和闭包/03-基本的闭包.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-面向对象和闭包/03-基本的闭包.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/.idea/guigu.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guigu/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/.buckconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/.flowconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/.watchmanconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/__tests__/App-test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/BUCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/build_defs.bzl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/src/main/java/com/guiguzhiping/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/src/main/java/com/guiguzhiping/MainApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/keystores/BUCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/keystores/debug.keystore.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/ios/guiguzhiping-tvOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/ios/guiguzhiping-tvOSTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/ios/guiguzhiping.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/ios/guiguzhiping.xcodeproj/xcshareddata/xcschemes/guiguzhiping-tvOS.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/ios/guiguzhiping.xcodeproj/xcshareddata/xcschemes/guiguzhiping.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/ios/guiguzhiping/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/ios/guiguzhiping/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/ios/guiguzhiping/Base.lproj/LaunchScreen.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/ios/guiguzhiping/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/ios/guiguzhiping/Images.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/ios/guiguzhiping/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/ios/guiguzhiping/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/ios/guiguzhipingTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/ios/guiguzhipingTests/guiguzhipingTests.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/metro.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guiguzhiping/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzhipin-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gzhipin-client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzhipin-client/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/gzhipin-client/config-overrides.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzhipin-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/gzhipin-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzhipin-client/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/gzhipin-client/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzhipin-client/src/assets/css/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/gzhipin-client/src/assets/css/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzhipin-client/src/containers/main/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/gzhipin-client/src/containers/main/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzhipin-client/src/containers/register/register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/gzhipin-client/src/containers/register/register.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzhipin-client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/gzhipin-client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzhipin-client/src/redux/action-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/gzhipin-client/src/redux/action-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzhipin-client/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/gzhipin-client/src/redux/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzhipin-client/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/gzhipin-client/src/redux/reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-study-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/react-study-3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-work-1/my-app" beforeDir="false" afterPath="$PROJECT_DIR$/react-work-1/my-app" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-work-1/my-app/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/react-work-1/my-app/src/App.js" beforeDir="false" />
@@ -57,23 +173,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-study-3/src/components/Contacts/Contacts.js">
+        <entry file="file://$PROJECT_DIR$/05-缓动动画/12-旋转木马.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state relative-caret-position="425">
+              <caret line="153" column="3" selection-start-line="153" selection-start-column="3" selection-end-line="153" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react-study-3/src/index.js">
+        <entry file="file://$PROJECT_DIR$/05-缓动动画/11-网易轮播图.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#389#431#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="412">
+              <caret line="153" selection-start-line="153" selection-end-line="153" />
             </state>
           </provider>
         </entry>
@@ -108,7 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/04-网页特效/21-蒙版效果.html" />
         <option value="$PROJECT_DIR$/04-网页特效/22-微博分享.html" />
         <option value="$PROJECT_DIR$/04-网页特效/综合动画函数封装.html" />
         <option value="$PROJECT_DIR$/04-网页特效/05-天猫弹性导航.html" />
@@ -132,7 +243,6 @@
         <option value="$PROJECT_DIR$/05-缓动动画/12-旋转木马.html" />
         <option value="$PROJECT_DIR$/06-面向对象和闭包/01-狗类.html" />
         <option value="$PROJECT_DIR$/06-面向对象和闭包/02-矩形.html" />
-        <option value="$PROJECT_DIR$/06-面向对象和闭包/03-基本的闭包.html" />
         <option value="$PROJECT_DIR$/react-work-1/my-app/src/index.js" />
         <option value="$PROJECT_DIR$/react-study-1/01-Hello World!.html" />
         <option value="$PROJECT_DIR$/react-study-1/app/index.html" />
@@ -159,12 +269,14 @@
         <option value="$PROJECT_DIR$/react-router-example/src/components/Repos/Repos.js" />
         <option value="$PROJECT_DIR$/react-study-3/src/index.js" />
         <option value="$PROJECT_DIR$/react-study-3/src/components/Contacts/Contacts.js" />
+        <option value="$PROJECT_DIR$/06-面向对象和闭包/03-基本的闭包.html" />
+        <option value="$PROJECT_DIR$/04-网页特效/21-蒙版效果.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="584" />
-    <option name="y" value="77" />
+    <option name="x" value="442" />
+    <option name="y" value="86" />
     <option name="width" value="1099" />
     <option name="height" value="880" />
   </component>
@@ -187,28 +299,7 @@
             <path>
               <item name="js-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-study" type="462c0819:PsiDirectoryNode" />
-              <item name="react-study-3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-study" type="462c0819:PsiDirectoryNode" />
-              <item name="react-study-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-study" type="462c0819:PsiDirectoryNode" />
-              <item name="react-study-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-study" type="462c0819:PsiDirectoryNode" />
-              <item name="react-study-3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Contacts" type="462c0819:PsiDirectoryNode" />
+              <item name="05-缓动动画" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -306,14 +397,17 @@
       <workItem from="1555479833413" duration="22000" />
       <workItem from="1555637453668" duration="518000" />
       <workItem from="1555638014321" duration="136000" />
+      <workItem from="1558082366199" duration="81000" />
+      <workItem from="1559195651564" duration="2417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99128000" />
+    <option name="totallyTimeSpent" value="101626000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="584" y="77" width="1099" height="880" extended-state="0" />
+    <frame x="442" y="86" width="1099" height="880" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.32233742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -327,26 +421,26 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32841823" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32841823" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2305936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32233742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32841823" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -357,21 +451,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/04-网页特效/25-Math常用函数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-网页特效/26-缓动动画.html" />
-    <entry file="file://$PROJECT_DIR$/05-缓动动画/02-封装缓动动画函数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-缓动动画/03-获取css的属性值.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -458,31 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-缓动动画/11-网易轮播图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="239" column="3" lean-forward="true" selection-start-line="239" selection-start-column="3" selection-end-line="239" selection-end-column="3" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#3058#3072#0" />
-            <element signature="e#3371#3385#0" />
-            <element signature="e#5275#5473#0" />
-            <element signature="e#5321#5335#0" />
-            <element signature="e#5809#6118#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-缓动动画/12-旋转木马.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="153" column="3" lean-forward="true" selection-start-line="153" selection-start-column="3" selection-end-line="153" selection-end-column="3" />
-          <folding>
-            <element signature="e#1973#2091#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06-面向对象和闭包/02-矩形.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -510,16 +564,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react-work-1/my-app/src/index.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-面向对象和闭包/03-基本的闭包.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding>
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react-study-1/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -689,12 +733,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react-study-3/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        <state relative-caret-position="25">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#389#431#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-面向对象和闭包/03-基本的闭包.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
+          <folding>
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-网页特效/14-中部导航吸顶.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-网页特效/21-蒙版效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="78" column="8" lean-forward="true" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-网页特效/22-获取选中文本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-缓动动画/12-旋转木马.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="153" column="3" selection-start-line="153" selection-start-column="3" selection-end-line="153" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-缓动动画/11-网易轮播图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
         </state>
       </provider>
     </entry>

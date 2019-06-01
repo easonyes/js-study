@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58a71b03-aa38-4a6d-a719-8e5898514ac1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06-面向对象和闭包/01-狗类.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06-面向对象和闭包/02-矩形.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06-面向对象和闭包/03-基本的闭包.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-router-example/res/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-router-example/src/components/About/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-router-example/src/components/About/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-router-example/src/components/App/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-router-example/src/components/App/appStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-router-example/src/components/App/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-router-example/src/components/Repos/Repos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-router-example/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-router-example/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-study-1/app/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-study-1/app/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-study-2/app1/src/before/ComponentLifeCycle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-study-2/app1/src/before/MarkdownEditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-study-2/app1/src/before/Timer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-study-2/app1/src/before/TodoApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-study-2/app1/src/before/UserGitHub.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NavLink/NavLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Repos/Repos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/User/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-test/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-test/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-test/.idea/react-test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/js-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/js-study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gzhipin-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gzhipin-client/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client/config-overrides.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react-work-1/my-app" beforeDir="false" afterPath="$PROJECT_DIR$/../react-work-1/my-app" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -67,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-column="26" />
+              <caret selection-end-line="1" selection-end-column="40" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="e#142#184#0" expanded="true" />
@@ -79,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="275">
               <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -130,7 +96,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Contacts/Contacts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="46">
               <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
             </state>
           </provider>
@@ -163,8 +129,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="185" />
-    <option name="y" value="60" />
+    <option name="x" value="256" />
+    <option name="y" value="59" />
     <option name="width" value="1410" />
     <option name="height" value="929" />
   </component>
@@ -176,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,7 +212,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,14 +271,15 @@
       <workItem from="1555554486614" duration="10273000" />
       <workItem from="1555636960987" duration="489000" />
       <workItem from="1555637973202" duration="3200000" />
+      <workItem from="1558082338335" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20681000" />
+    <option name="totallyTimeSpent" value="20685000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="185" y="60" width="1410" height="929" extended-state="0" />
+    <frame x="256" y="59" width="1410" height="929" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.12682216" />
@@ -349,9 +316,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#142#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="275">
           <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -390,20 +368,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#142#184#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Contacts/Contacts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="46">
           <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
         </state>
       </provider>

@@ -5,13 +5,13 @@
   <title>Title</title>
 </head>
 <body>
-<div class='wrapper'>
+<!--<div class='wrapper'>
   <button class='like-btn'>
     <span class='like-text'>点赞</span>
     <span>👍</span>
   </button>
-</div>
-<script>
+</div>-->
+<script type="text/html">
   const button = document.querySelector('.like-btn')
   const buttonText = button.querySelector('.like-text')
   let isLiked = false
@@ -24,7 +24,7 @@
     }
   }, false)
 </script>
-<script type="text/html">
+<script>
   /*
   闭包的最大用处：
   一个是可以读取函数内部的变量，
@@ -54,6 +54,34 @@
 
 
 
+</script>
+<script type="text/html">
+  var fun1 = function(callback) {
+    //do something
+    console.log("before callback");
+    (callback && typeof(callback) === 'function') && callback();
+    console.log("after callback");
+  }
+  var fun2 = function(param) {
+    //do something
+    var start = new Date();
+    while((new Date() - start) < 3000) { //delay 3s
+    }
+    console.log("I'm callback");
+  }
+  fun1(fun2);
+
+
+</script>
+<script type="text/html">
+  console.log(1 == '1');
+</script>
+<script type="text/html">
+  console.log(null + 1);
+  console.log(undefined + 1);
+  console.log(null == undefined);
+  console.log(0=='');
+  console.log(NaN == NaN);
 </script>
 </body>
 </html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    body{
+      text-align: center;
+    }
+    img{
+      width: 200px;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+<img id="l" src="./img/left.png" alt=""><br>
+<img id="r" src="./img/right.png" alt="">
+
+<script>
+  /*function test1(x) {
+    return function (y) {
+      alert(x + y);
+      console.log(x);
+      console.log(y);
+    }
+  }
+
+  test1(1)(2);*/
+  
+  /*let left = 0, right = 0, speed = 50;
+  let l = document.getElementById('l');
+  let r = document.getElementById('r');
+  
+  l.onmousedown = function () {
+    left -= speed;
+    this.style.marginLeft = left + 'px';
+  };
+
+  r.onmousedown = function () {
+    right += speed;
+    this.style.marginLeft = right + 'px';
+  };*/
+
+  function move(speed) {
+    let num = 0;
+    return function () {
+      num += speed;
+      this.style.marginLeft = num + 'px';
+    }
+  }
+
+  let l = document.getElementById('l');
+  let r = document.getElementById('r');
+
+  l.onmousedown = move(-50);
+  r.onmousedown = move(50);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+  <button id="btn">点我</button>
+
+
+<script>
+  (function () {
+    let btn = document.getElementById('btn');
+    let btn1 = document.getElementById('btn');
+    let btn2 = document.getElementById('btn');
+    let btn3 = document.getElementById('btn');
+    let btn4 = document.getElementById('btn');
+    btn.onclick = function () {
+      alert('小七');
+    }
+  })();
+
+  (function () {
+    let d = document;
+    let btn = d.getElementById('btn');
+    let btn1 = d.getElementById('btn');
+    let btn2 = d.getElementById('btn');
+    let btn3 = d.getElementById('btn');
+    let btn4 = d.getElementById('btn');
+    btn.onclick = function () {
+      alert('小七');
+    }
+  })();
+
+  (function (document) {
+    let btn = document.getElementById('btn');
+    let btn1 = document.getElementById('btn');
+    let btn2 = document.getElementById('btn');
+    let btn3 = document.getElementById('btn');
+    let btn4 = document.getElementById('btn');
+    btn.onclick = function () {
+      alert('小七');
+    }
+  })(document);
+
+  /*let num = 0;
+  for(let k in window){
+    num++;
+    document.write(k + ',' + num + '<br/>');
+  }*/
+</script>
+<script type="text/html">
+  let num = 3;
+  (function () {
+    (function () {
+      (function () {
+        // console.log(age)
+        // let num = 4;
+        (function () {
+          var age = 18;
+          console.log(num);
+        })();
+
+        (function () {
+          console.log(age);
+        })();
+      })();
+    })();
+  })();
+</script>
+</body>
+</html>

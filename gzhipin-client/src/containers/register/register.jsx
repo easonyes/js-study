@@ -60,7 +60,7 @@ class Register extends Component{
         <WingBlank>
           <List>
             {msg ? <div className='error-msg'>{msg}</div> : null}
-            <InputItem onChange={val => {this.handleChange('username', val)}}>用户名：</InputItem>
+            <InputItem placeholder='请输入用户名' onChange={val => {this.handleChange('username', val)}}>用户名：</InputItem>
             <WhiteSpace/>
             <InputItem type="password" onChange={val => {this.handleChange('password', val)}}>密码：</InputItem>
             <WhiteSpace/>
