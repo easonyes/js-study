@@ -1,3 +1,4 @@
+基础git教程  https://www.cnblogs.com/r360/p/4931432.html
 也来谈一谈js的浅复制和深复制	https://www.cnblogs.com/tracylin/p/5346314.html
 CSS中可以和不可以继承的属性	https://www.cnblogs.com/thislbq/p/5882105.html
 初探Promise（内附同步与异步的简单介绍）    https://segmentfault.com/a/1190000007032448

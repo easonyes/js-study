@@ -2,152 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b7ddca1-e5f0-4d66-aede-34fed49510c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../06-面向对象和闭包/.idea/06-面向对象和闭包.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06-面向对象和闭包/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06-面向对象和闭包/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06-面向对象和闭包/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06-面向对象和闭包/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06-面向对象和闭包/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06-面向对象和闭包/04-封闭作用域.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06-面向对象和闭包/05-作用域链.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06-面向对象和闭包/06-高级排他.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06-面向对象和闭包/07-闭包的参数传递.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06-面向对象和闭包/08-函数节流.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06-面向对象和闭包/img/left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06-面向对象和闭包/img/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/头像9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header-selector/header-selector.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav-footer/imgs/dashen-selected.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav-footer/imgs/dashen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav-footer/imgs/laoban-selected.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav-footer/imgs/laoban.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav-footer/imgs/message-selected.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav-footer/imgs/message.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav-footer/imgs/personal-selected.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav-footer/imgs/personal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav-footer/nav-footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/not-found/not-found.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/user-list/user-list.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/chat/chat.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dashen-info/dashen-info.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dashen/dashen.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/laoban-info/laoban-info.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/laoban/laoban.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/message/message.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/personal/personal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/socketio_test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-网页特效/21-蒙版效果.html" beforeDir="false" afterPath="$PROJECT_DIR$/../04-网页特效/21-蒙版效果.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-面向对象和闭包/03-基本的闭包.html" beforeDir="false" afterPath="$PROJECT_DIR$/../06-面向对象和闭包/03-基本的闭包.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/.idea/guigu.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/.buckconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/.flowconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/.watchmanconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/__tests__/App-test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/BUCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/build_defs.bzl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/java/com/guiguzhiping/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/java/com/guiguzhiping/MainApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/keystores/BUCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/keystores/debug.keystore.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping-tvOS/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping-tvOSTests/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping.xcodeproj/xcshareddata/xcschemes/guiguzhiping-tvOS.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping.xcodeproj/xcshareddata/xcschemes/guiguzhiping.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping/AppDelegate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping/AppDelegate.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping/Base.lproj/LaunchScreen.xib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping/Images.xcassets/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping/main.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhipingTests/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhipingTests/guiguzhipingTests.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/metro.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/yarn.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/main/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/main/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/register/register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/register/register.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/action-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action-types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-study-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-study-3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logo/logo.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo/logo.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react-work-1/my-app" beforeDir="false" afterPath="$PROJECT_DIR$/../react-work-1/my-app" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -163,10 +19,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/logo/logo.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#23#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/logo/logo.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/chat/chat.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2500">
-              <caret line="107" column="56" selection-start-line="107" selection-start-column="56" selection-end-line="107" selection-end-column="56" />
+            <state relative-caret-position="200">
+              <caret line="111" column="31" lean-forward="true" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="31" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#19#58#0" expanded="true" />
@@ -176,65 +54,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/reducers.js">
+        <entry file="file://$PROJECT_DIR$/src/containers/login/login.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="823">
-              <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+            <state relative-caret-position="600">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#67#105#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/user-list/user-list.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/store.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#27#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/actions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2367">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#56#90#0" expanded="true" />
+                <element signature="e#19#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+        <entry file="file://$PROJECT_DIR$/src/api/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="575">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -263,7 +111,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/redux/store.js" />
-        <option value="$PROJECT_DIR$/src/components/logo/logo.less" />
         <option value="$PROJECT_DIR$/src/components/logo/logo.jsx" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/containers/login/login.jsx" />
@@ -291,13 +138,14 @@
         <option value="$PROJECT_DIR$/src/redux/actions.js" />
         <option value="$PROJECT_DIR$/src/containers/chat/chat.jsx" />
         <option value="$PROJECT_DIR$/src/components/user-list/user-list.jsx" />
+        <option value="$PROJECT_DIR$/src/components/logo/logo.less" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1021" />
-    <option name="y" value="54" />
-    <option name="width" value="899" />
+    <option name="x" value="535" />
+    <option name="y" value="38" />
+    <option name="width" value="1104" />
     <option name="height" value="982" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -324,44 +172,6 @@
               <item name="gzhipin-client" type="b2602c69:ProjectViewProjectNode" />
               <item name="gzhipin-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gzhipin-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gzhipin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gzhipin-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gzhipin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="user-list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gzhipin-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gzhipin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gzhipin-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gzhipin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="chat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gzhipin-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gzhipin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gzhipin-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gzhipin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -428,22 +238,23 @@
       <workItem from="1559199024273" duration="11327000" />
       <workItem from="1559284333771" duration="9179000" />
       <workItem from="1559369117255" duration="1393000" />
-      <workItem from="1559373751704" duration="349000" />
+      <workItem from="1559373751704" duration="2385000" />
+      <workItem from="1559654672661" duration="1533000" />
+      <workItem from="1559693951017" duration="2851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113083000" />
+    <option name="totallyTimeSpent" value="119503000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1021" y="54" width="899" height="982" extended-state="0" />
-    <editor active="true" />
+    <frame x="535" y="38" width="1104" height="982" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24041812" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.19418387" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.20518868" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.20518868" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -495,13 +306,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/logo/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/logo/logo.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-overrides.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -530,16 +334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/laoban-info/laoban-info.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -561,17 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/login/login.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="56" column="39" lean-forward="true" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#19#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/register/register.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2225">
@@ -579,28 +362,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#17#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/logo/logo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#23#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/laoban/laoban.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#22#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -624,13 +385,6 @@
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#21#60#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -683,46 +437,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/main/main.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2350">
-          <caret line="112" column="11" selection-start-line="112" selection-start-column="11" selection-end-line="112" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#16#55#0" expanded="true" />
-            <element signature="e#228#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/message/message.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#21#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/action-types.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/chat/chat.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2500">
-          <caret line="107" column="56" selection-start-line="107" selection-start-column="56" selection-end-line="107" selection-end-column="56" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#19#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -734,6 +454,67 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/laoban/laoban.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#22#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/message/message.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#21#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/main/main.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3300">
+          <caret line="132" column="10" selection-start-line="132" selection-start-column="3" selection-end-line="132" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#16#55#0" expanded="true" />
+            <element signature="e#228#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#56#90#0" expanded="true" />
+            <element signature="e#2167#2959#0" />
+            <element signature="e#3009#3632#0" />
+            <element signature="e#3689#3963#0" />
+            <element signature="e#4012#4312#0" />
+            <element signature="e#4371#4627#0" />
+            <element signature="e#4791#5017#0" />
           </folding>
         </state>
       </provider>
@@ -760,23 +541,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/actions.js">
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/logo/logo.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2367">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="100">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#56#90#0" expanded="true" />
+            <element signature="e#23#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/logo/logo.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="50">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/chat/chat.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="111" column="31" lean-forward="true" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="31" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#19#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/login/login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#19#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

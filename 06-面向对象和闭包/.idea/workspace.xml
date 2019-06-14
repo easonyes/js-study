@@ -2,102 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d3d8eb4-e24c-4395-bbb6-32e5d52b842a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/06-面向对象和闭包.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-封闭作用域.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-作用域链.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-高级排他.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-闭包的参数传递.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-函数节流.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-基本的闭包.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-基本的闭包.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/.idea/guigu.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guigu/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/.buckconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/.flowconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/.watchmanconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/__tests__/App-test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/BUCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/build_defs.bzl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/java/com/guiguzhiping/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/java/com/guiguzhiping/MainApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/keystores/BUCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/keystores/debug.keystore.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/android/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping-tvOS/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping-tvOSTests/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping.xcodeproj/xcshareddata/xcschemes/guiguzhiping-tvOS.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping.xcodeproj/xcshareddata/xcschemes/guiguzhiping.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping/AppDelegate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping/AppDelegate.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping/Base.lproj/LaunchScreen.xib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping/Images.xcassets/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhiping/main.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhipingTests/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/ios/guiguzhipingTests/guiguzhipingTests.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/metro.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guiguzhiping/yarn.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gzhipin-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gzhipin-client/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client/config-overrides.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gzhipin-client/src/containers/register/register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client/src/containers/register/register.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-study-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-study-3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gzhipin-client/src/components/logo/logo.less" beforeDir="false" afterPath="$PROJECT_DIR$/../gzhipin-client/src/components/logo/logo.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react-work-1/my-app" beforeDir="false" afterPath="$PROJECT_DIR$/../react-work-1/my-app" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -210,18 +116,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="06-面向对象和闭包" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06-面向对象和闭包" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,11 +169,12 @@
       <workItem from="1558532250170" duration="1625000" />
       <workItem from="1558535905609" duration="1499000" />
       <workItem from="1558676731028" duration="43000" />
+      <workItem from="1560325244663" duration="158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8270000" />
+    <option name="totallyTimeSpent" value="8428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1015" y="65" width="910" height="976" extended-state="0" />
